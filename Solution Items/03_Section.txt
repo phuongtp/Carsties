@@ -1,0 +1,22 @@
+Auction-Srv with Postgres-DB
+------------------------------------
+1. Simple rest API
+2. CRUD
+
+Search-svc with Mongo-DB
+-------------------------------------
+1. Creating search service
+2. Create Mongo DB (document-related)
+3. Sync 
+4. Service Bus - RabbitMQ
+
+	Nuget Packages
+	AutoMapper.Extensions.Microsoft.DependencyInjection
+	Microsoft.Extensions.Http.Polly
+	MongoDB.Entities
+	MassTransit.RabbitMQ
+	
+	Events Consumed
+	AuctionService.AuctionCreated
+	AuctionService.AuctionDeleted
+	...

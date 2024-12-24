@@ -22,7 +22,9 @@
 
 4. Docker install:
    1. create docker-compose.yml
-   2. >docker compose up -d   
+   2. >docker compose up -d      <---- very important !!!
+   3. stop:
+      >docker compose down
 
 5. Update Entity Framework Tools:
    >dotnet tool update --global dotnet-ef    (Laatste versie)
