@@ -1,0 +1,9 @@
+Create account in Github.compose
+1. >git init  (ion root)
+
+Create new gitignore
+>dotnet new gitignore
+
+Commit changes:
+>git add .
+>git commit -m "End ofsection 2"
